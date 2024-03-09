@@ -1,7 +1,7 @@
 {
   "name": "selenium-javascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Selenium JavaScript testing setup with WebdriverIO",
   "main": "wdio.conf.js",
   "directories": {
     "test": "test"
@@ -24,8 +24,16 @@
     "wdio-chromedriver-service": "^7.0.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "wdio wdio.conf.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Your Name",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/selenium-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/selenium-javascript/issues"
+  },
+  "homepage": "https://github.com/your-username/selenium-javascript#readme"
 }
